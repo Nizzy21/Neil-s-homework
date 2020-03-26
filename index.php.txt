@@ -17,9 +17,9 @@
 		}
 	function ConputeGradeLetter (){
 		$has_payload = true;
-		$midterm = $_GET['midterm'];
-		$final = $_GET['final'];
-		$semester = $_GET['semester'];
+		$midterm = float['midterm'];
+		$final = float['final'];
+		$semester = string['semester'];
 		
 		return Grade2($semester, $midterm, final);
 		}
